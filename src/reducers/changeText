@@ -1,0 +1,16 @@
+const initialState = ['This is my first text!']
+
+const changeText = (state=initialState, action) => {
+    switch(action.type){
+        case 'CHANGE_TEXT': return(
+            state.map(el => {
+                if (el === 'This is my first text!') return 'olala';
+                else if ( el === 'olala')  return 'This is my first text!';
+                else return el;
+            })
+        )
+        default: return state;
+    }
+}
+
+export default changeText;
