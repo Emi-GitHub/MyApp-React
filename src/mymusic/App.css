@@ -1,0 +1,32 @@
+.inputText{
+    width: 400px;
+    height: 30px;
+}
+.logo{
+    width: 50px;
+    height: 40px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.mojFooter{
+    height: 80px;
+    text-align: center;
+}
+.mojMain{
+    height: 700px;
+}
+.foot{
+    display: none;
+}
+.main{
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flow-root;
+}
+.album{
+    float:left;
+    margin: 10px 10px 10px 10px;
+}
